@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/Git_Repository/PythonSeleniumAutomationSkeleton/.idea/Git_PythonSeleniumAutomationSkeleton.iml" filepath="$USER_HOME$/Desktop/Git_Repository/PythonSeleniumAutomationSkeleton/.idea/Git_PythonSeleniumAutomationSkeleton.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Git_Repository/PythonSelenium_POM_Framework/.idea/PTAF.iml" filepath="$USER_HOME$/Desktop/Git_Repository/PythonSelenium_POM_Framework/.idea/PTAF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PythonFrameWork2/.idea/PythonFrameWork2.iml" filepath="$PROJECT_DIR$/../PythonFrameWork2/.idea/PythonFrameWork2.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Git_Repository/page-object-python-selenium/.idea/page-object-python-selenium.iml" filepath="$USER_HOME$/Desktop/Git_Repository/page-object-python-selenium/.idea/page-object-python-selenium.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Git_Repository/python-behave-automation-framework/.idea/python-behave-automation-framework.iml" filepath="$USER_HOME$/Desktop/Git_Repository/python-behave-automation-framework/.idea/python-behave-automation-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pythonFrameWork.iml" filepath="$PROJECT_DIR$/.idea/pythonFrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonProgram/.idea/pythonProgram.iml" filepath="$PROJECT_DIR$/../pythonProgram/.idea/pythonProgram.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Git_Repository/splinter/.idea/splinter.iml" filepath="$USER_HOME$/Desktop/Git_Repository/splinter/.idea/splinter.iml" />
+    </modules>
+  </component>
+</project>

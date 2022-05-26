@@ -1,0 +1,47 @@
+25-05-2022 12:43:58 - testCase.test_login - INFO - *********** Start TC 001*********** 
+25-05-2022 12:43:58 - testCase.test_login - INFO - *********** verify existing customer details *********** 
+25-05-2022 12:43:58 - testCase.test_login - INFO - ************* Enter the Url  ************
+25-05-2022 12:44:10 - testCase.test_login - INFO - entered valid username and password
+25-05-2022 12:44:12 - testCase.test_login - INFO - ***************Start TC 002 **************************
+25-05-2022 12:44:12 - testCase.test_login - INFO - *********** verify Home page title *********** 
+25-05-2022 12:44:12 - testCase.test_login - INFO - ************* Enter the Url for   ************
+25-05-2022 12:44:39 - testCase.test_login - INFO - entered valid username and password
+25-05-2022 12:44:43 - testCase.test_login - INFO - captured page title
+25-05-2022 12:44:47 - testCase.test_login - INFO - verified Page title is not capture correct 
+25-05-2022 14:58:15 - testCase.test_login - INFO - *********** Start TC 001*********** 
+25-05-2022 14:58:15 - testCase.test_login - INFO - *********** verify existing customer details *********** 
+25-05-2022 14:58:15 - testCase.test_login - INFO - ************* Enter the Url  ************
+25-05-2022 14:58:15 - testCase.test_login - INFO - ***************Start TC 002 **************************
+25-05-2022 14:58:15 - testCase.test_login - INFO - *********** verify Home page title *********** 
+25-05-2022 14:58:15 - testCase.test_login - INFO - ************* Enter the Url for   ************
+25-05-2022 14:59:23 - testCase.test_login - INFO - *********** Start TC 003*********** 
+25-05-2022 14:59:23 - testCase.test_login - INFO - *********** verify new customer is created *********** 
+25-05-2022 14:59:23 - testCase.test_login - INFO - ************* Enter the Url for   ************
+25-05-2022 14:59:46 - testCase.test_login - INFO - ***************Start TC 002 **************************
+25-05-2022 14:59:46 - testCase.test_login - INFO - *********** verify Home page title *********** 
+25-05-2022 14:59:46 - testCase.test_login - INFO - ************* Enter the Url for   ************
+25-05-2022 14:59:46 - testCase.test_login - INFO - *********** Start TC 001*********** 
+25-05-2022 14:59:46 - testCase.test_login - INFO - *********** verify existing customer details *********** 
+25-05-2022 14:59:46 - testCase.test_login - INFO - ************* Enter the Url  ************
+25-05-2022 15:00:12 - testCase.test_login - INFO - entered valid username and password
+25-05-2022 15:00:16 - testCase.test_login - INFO - captured page title
+25-05-2022 15:00:20 - testCase.test_login - INFO - verified Page title is not capture correct 
+25-05-2022 15:11:29 - testCase.test_login - INFO - *********** Start TC 001*********** 
+25-05-2022 15:11:29 - testCase.test_login - INFO - *********** verify existing customer details *********** 
+25-05-2022 15:11:29 - testCase.test_login - INFO - ************* Enter the Url  ************
+25-05-2022 15:11:29 - testCase.test_login - INFO - ***************Start TC 002 **************************
+25-05-2022 15:11:29 - testCase.test_login - INFO - *********** verify Home page title *********** 
+25-05-2022 15:11:29 - testCase.test_login - INFO - ************* Enter the Url for   ************
+25-05-2022 15:12:01 - testCase.test_login - INFO - entered valid username and password
+25-05-2022 15:12:02 - testCase.test_login - INFO - entered valid username and password
+25-05-2022 15:12:05 - testCase.test_login - INFO - captured page title
+25-05-2022 15:12:05 - testCase.test_login - INFO - *********** Start TC 003*********** 
+25-05-2022 15:12:05 - testCase.test_login - INFO - *********** verify new customer is created *********** 
+25-05-2022 15:12:05 - testCase.test_login - INFO - ************* Enter the Url for   ************
+25-05-2022 15:12:09 - testCase.test_login - INFO - verified Page title is not capture correct 
+25-05-2022 16:28:27 - testCase.test_login - INFO - *********** Start TC 001*********** 
+25-05-2022 16:28:27 - testCase.test_login - INFO - *********** verify existing customer details *********** 
+25-05-2022 16:28:27 - testCase.test_login - INFO - ************* Enter the Url  ************
+25-05-2022 16:28:34 - testCase.test_login - INFO - ***************Start TC 002 **************************
+25-05-2022 16:28:34 - testCase.test_login - INFO - *********** verify Home page title *********** 
+25-05-2022 16:28:34 - testCase.test_login - INFO - ************* Enter the Url for   ************
