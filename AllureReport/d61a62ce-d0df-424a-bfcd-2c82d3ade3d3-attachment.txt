@@ -1,4 +1,0 @@
-[32mINFO    [0m testCase.test_login:test_login.py:37 *********** Start TC 001*********** 
-[32mINFO    [0m testCase.test_login:test_login.py:38 *********** verify existing customer details *********** 
-[32mINFO    [0m testCase.test_login:test_login.py:51 ************* Enter the Url  ************
-[32mINFO    [0m testCase.test_login:test_login.py:55 entered valid username and password

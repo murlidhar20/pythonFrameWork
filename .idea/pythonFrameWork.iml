@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (pythonFrameWork)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="PythonFrameWork2" />
     <orderEntry type="module" module-name="pythonProgram" />
@@ -13,5 +13,7 @@
     <orderEntry type="module" module-name="PTAF" />
     <orderEntry type="module" module-name="Git_PythonSeleniumAutomationSkeleton" />
     <orderEntry type="module" module-name="splinter" />
+    <orderEntry type="module" module-name="nopCommerceProject" />
+    <orderEntry type="module" module-name="Python_FrameWork_POM" />
   </component>
 </module>

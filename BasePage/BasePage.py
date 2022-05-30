@@ -1,5 +1,6 @@
 import allure
 import pytest
+
 from selenium import webdriver
 import time
 from selenium.webdriver.support.wait import WebDriverWait

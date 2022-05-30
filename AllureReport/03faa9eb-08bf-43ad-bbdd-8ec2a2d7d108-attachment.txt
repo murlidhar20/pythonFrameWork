@@ -1,0 +1,7 @@
+[32mINFO    [0m testCase.test_login:test_login.py:102 *********** Start TC 003*********** 
+[32mINFO    [0m testCase.test_login:test_login.py:103 *********** verify new customer is created *********** 
+[32mINFO    [0m testCase.test_login:test_login.py:110 ************* Enter the Url for   ************
+[32mINFO    [0m testCase.test_login:test_login.py:114 entered valid username and password
+[32mINFO    [0m testCase.test_login:test_login.py:117 click on customer on left panel
+[32mINFO    [0m testCase.test_login:test_login.py:121 click on new button and enter all details and click on save button 
+[32mINFO    [0m testCase.test_login:test_login.py:125 ***************End TC 003 **************************

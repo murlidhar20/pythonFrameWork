@@ -1,0 +1,7 @@
+[32mINFO    [0m testCase.test_login:test_login.py:63 ***************Start TC 002 **************************
+[32mINFO    [0m testCase.test_login:test_login.py:64 *********** verify Home page title *********** 
+[32mINFO    [0m testCase.test_login:test_login.py:72 ************* Enter the Url for   ************
+[32mINFO    [0m testCase.test_login:test_login.py:75 entered valid username and password
+[32mINFO    [0m testCase.test_login:test_login.py:78 captured page title
+[32mINFO    [0m testCase.test_login:test_login.py:91 verified Page title is not capture correct 
+[32mINFO    [0m testCase.test_login:test_login.py:94 ***************End TC 2 **************************

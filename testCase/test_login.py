@@ -1,5 +1,7 @@
 import allure
 from allure_commons.types import AttachmentType
+from selenium.webdriver import chrome
+
 from pageObject.Customer import Customer
 from pageObject.HomePage import HomePage
 from pageObject.loginPage import LoginPage
