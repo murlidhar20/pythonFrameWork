@@ -36,6 +36,8 @@ class Test0001:
         self._homePage = HomePage(self.driver)
         self._customer = Customer(self.driver)
 
+        print("-----------------------test_VerifyExistingCustomer----------------------------")
+
         self.customer = ExcelReader.read_data(self.path, "Sheet1", 2, 4)
 
         print(self.customer)
@@ -68,6 +70,8 @@ class Test0001:
         self._basePage = BasePage(self.driver)
         self._homePage = HomePage(self.driver)
         self._customer = Customer(self.driver)
+
+        print("-----------------------test_VerifyHomePageTitle----------------------------")
 
         self.logger.info("************* Enter the Url for   ************")
         self.driver.get(self.baseUrl)
@@ -103,6 +107,7 @@ class Test0001:
         self.logger.info("*********** verify new customer is created *********** ")
         self.driver = setUp
 
+        print("-----------------------test_VerifyNewCustomerIsCreated----------------------------")
         self.ip = LoginPage(self.driver)
         self._basePage = BasePage(self.driver)
         self._homePage = HomePage(self.driver)
