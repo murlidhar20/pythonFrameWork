@@ -50,7 +50,7 @@ class Customer:
 
         self.BasePage.element_click(self.button_newCustomer)
 
-        self.BasePage.enter_text_into_element(self.text_email, "Murl10kk@HP.com")
+        self.BasePage.enter_text_into_element(self.text_email, "Murl188@HP.com")
         self.BasePage.enter_text_into_element(self.text_password, "12j345678")
 
         self.BasePage.enter_text_into_element(self.text_firstName, "Mukkrli")

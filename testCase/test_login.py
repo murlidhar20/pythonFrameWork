@@ -1,7 +1,8 @@
-import allure
 from allure_commons.types import AttachmentType
 from selenium.webdriver import chrome
-
+import pytest
+import time
+import allure
 from pageObject.Customer import Customer
 from pageObject.HomePage import HomePage
 from pageObject.loginPage import LoginPage
@@ -9,23 +10,23 @@ from utilities.readProperties import ReadConfig
 from utilities.LoggingUtility import GenerateLogs
 from utilities.ExcelUtility import ExcelReader
 from BasePage.BasePage import BasePage
-import pytest
-import time
+import allure
 
 
 class Test0001:
-    import allure
     baseUrl = ReadConfig.getApplicationUrl()
     username = ReadConfig.getUserEmail()
     password = ReadConfig.getUserPassword()
     logger = GenerateLogs.log_gen(__name__)
     path = "C:/Users/HP/PycharmProjects/pythonFrameWork/TestData/Excel.xlsx"
 
+    '''
     @allure.description("verify exiting customer record")
     @allure.epic("verify exiting customer record in epic")
     @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.sanity
+    #@pytest.mark.depends(on=['test_welcome_to_home_Page'])
     def test_VerifyExistingCustomer(self, setUp):
-
         self.logger.info("*********** Start TC 001*********** ")
         self.logger.info("*********** verify existing customer details *********** ")
 
@@ -45,10 +46,8 @@ class Test0001:
         self.logger.info("************* Enter the Url  ************")
         self.driver.get(self.baseUrl)
 
-        self.ip.loginPage(self.username, self.password)
+        self.ip.loginPage(self.username, self.password,"Dashboard / nopCommerce administration1")
         self.logger.info("entered valid username and password")
-
-        self._basePage.closeBrowser()
 
         self._homePage.clickOnLeftPanel()
         self.logger.info("click on customer on left panel")
@@ -56,11 +55,17 @@ class Test0001:
         self.logger.info("verify existing customer details")
         self._basePage.closeBrowser()
         self.logger.info("***********END TC 001*********** ")
+        '''
+        
+
+
+    '''
 
     @allure.description("verify home-page title")
     @allure.epic("verify home-page title in epic")
     @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.sanity
+    @pytest.mark.depends(on=['test_VerifyExistingCustomer'])
     def test_VerifyHomePageTitle(self, setUp):
         self.logger.info("***************Start TC 002 **************************")
         self.logger.info("*********** verify Home page title *********** ")
@@ -82,7 +87,7 @@ class Test0001:
         self.logger.info("captured page title")
         print(pageTitle)
         time.sleep(4)
-        if pageTitle == "Dashboard / nopCommerce administration123":
+        if pageTitle == "Dashboard / nopCommerce administration1234":
             assert True
             self.logger.info("verified Page title is capture correct ")
             # self._basePage.closeBrowser()
@@ -95,13 +100,20 @@ class Test0001:
             self.logger.info("verified Page title is not capture correct ")
 
             # time.sleep(4)
-            self.logger.info("***************End TC 2 **************************")
             assert False
+        self._basePage.closeBrowser()
+        self.logger.info("***************End TC 2 **************************")
+
+            
+
+
+
 
     @allure.description("verify new customer is created ")
     @allure.epic("verify new customer is created in epic")
     @allure.severity(allure.severity_level.CRITICAL)
-    @pytest.mark.regression
+    @pytest.mark.sanity
+    #@pytest.mark.skip
     def test_VerifyNewCustomerIsCreated(self, setUp):
         self.logger.info("*********** Start TC 003*********** ")
         self.logger.info("*********** verify new customer is created *********** ")
@@ -128,3 +140,73 @@ class Test0001:
 
         self._basePage.closeBrowser()
         self.logger.info("***************End TC 003 **************************")
+
+    @allure.description("verify exiting customer record")
+    @allure.epic("verify exiting customer record in epic")
+    @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.sanity
+    def test_welcome_to_home_Page(self):
+        self.logger.info("*************** Start test_welcome_to_home_Page **************************")
+        print("Welcome To page")
+        print(" ")
+        print("Welcome To page 1")
+
+    @allure.description("verify exiting customer record")
+    @allure.epic("verify exiting customer record in epic")
+    @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.regression
+    def test_regression(self):
+        self.logger.info("*************** Start test_regression **************************")
+        print("Welcome To Regression TC")
+        print(" ")
+        print("Welcome To Regression TC 2")
+        self.logger.info("*************** End test_regression **************************")
+
+    @allure.description("verify exiting customer record")
+    @allure.epic("verify exiting customer record in epic")
+    @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.sanity
+    @pytest.mark.skip
+    def test_skipped(self):
+        self.logger.info("*************** Start test_Skipped **************************")
+        print("Welcome To Regression TC")
+        print(" ")
+        print("Welcome To Regression TC 2")
+        self.logger.info("*************** End test_Skipped  **************************")
+        
+        '''
+
+    @allure.description("verify exiting customer record")
+    @allure.epic("verify exiting customer record in epic")
+    @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.sanity
+    # @pytest.mark.depends(on=['test_welcome_to_home_Page'])
+    def test_VerifyExistingCustomer(self, setUp):
+        self.logger.info("*********** Start TC 001*********** ")
+        self.logger.info("*********** verify existing customer details *********** ")
+
+        self.driver = setUp
+
+        self.ip = LoginPage(self.driver)
+        self._basePage = BasePage(self.driver)
+        self._homePage = HomePage(self.driver)
+        self._customer = Customer(self.driver)
+
+        print("-----------------------test_VerifyExistingCustomer----------------------------")
+
+        self.customer = ExcelReader.read_data(self.path, "Sheet1", 2, 4)
+
+        print(self.customer)
+
+        self.logger.info("************* Enter the Url  ************")
+        self.driver.get(self.baseUrl)
+
+        self.ip.login_to_application(self.username, self.password)
+        self.logger.info("entered valid username and password")
+
+
+
+
+   
+        
+

@@ -1,8 +1,15 @@
+from logging import exception
+
 import allure
 import pytest
+import selenium
 
 from selenium import webdriver
 import time
+
+import selenium.common.exceptions
+
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
@@ -20,14 +27,26 @@ class BasePage:
         return self.driver.find_elements(by_locator)
 
     def element_click(self, by_locator):
-        WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).click()
+        try:
+            WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).click()
+            return True
+        except TimeoutException as ex:
+            return False
+            print(ex.message)
 
     def element_clear(self, by_locator):
         WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).clear()
 
     def enter_text_into_element(self, by_locator, text):
-        WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).clear()
-        WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).send_keys(text)
+        try:
+            # WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).clear()
+            WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).send_keys(text)
+            return True
+        # except exception:
+        except selenium.common.exceptions.WebDriverException as e:
+            print(" exception: %s" % e, by_locator)
+            raise e
+            return False
 
     def get_element_text(self, by_locator):
         element = WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator))
@@ -38,8 +57,11 @@ class BasePage:
         return bool(element)
 
     def get_page_title(self, title1):
-        WebDriverWait(self.driver, 30).until(ec.title_is(title1))
-        return self.driver.title
+        try:
+            WebDriverWait(self.driver, 30).until(ec.title_is(title1))
+            return self.driver.title
+        except TimeoutException as ex:
+            print(ex.message)
 
     def verify_ElementIsDisplayed(self, by_locator):
         element = WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator))
@@ -51,3 +73,6 @@ class BasePage:
 
     def closeBrowser(self):
         return self.driver.close()
+
+    def waitFor(self, Time):
+        time.sleep(Time)
