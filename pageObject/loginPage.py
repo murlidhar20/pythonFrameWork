@@ -9,27 +9,29 @@ from utilities.AllureCaptureScreenShot import GetScreenShot
 
 
 class LoginPage:
-    '''
+
     text_userName_xpath = (By.NAME, "Email")
     text_passWord_xpath = (By.ID, "Password")
     button_login_xpath = (By.XPATH, "//*[text()='Log in']")
-    '''
 
+
+    '''
     text_userName_id = (By.ID, "ap_email")
     text_continue_id = (By.ID, "continue")
     text_passWord_id = (By.ID, "ap_password")
     button_login_xpath = (By.XPATH, "//*[@id='signInSubmit']")
     button_signIn_xpath = (By.XPATH, "//*[text()='Hello, Sign in']")
+    '''
 
     def __init__(self, driver):
         self.BasePage = None
         self.GetScreenShot = None
         self.driver = driver
 
-    '''
+
 
     @allure.step("enter userName and password and click on login button")
-    def loginPage(self, userName, password, expectedPageTitle):
+    def login_page(self, userName, password, expectedPageTitle):
         self.BasePage = BasePage(self.driver)
         self.screenShotPage = GetScreenShot(self.driver)
         self.BasePage.enter_text_into_element(self.text_userName_xpath, userName)
@@ -38,6 +40,7 @@ class LoginPage:
         self.BasePage.element_click(self.button_login_xpath)
         time.sleep(4)
         actualPageTitle = self.BasePage.get_page_title("Dashboard / nopCommerce administration")
+        time.sleep(4)
         if actualPageTitle == expectedPageTitle:
             self.screenShotPage.getScreenShot("user is navigated to Home page")
             assert True
@@ -45,8 +48,10 @@ class LoginPage:
             self.screenShotPage.getScreenShot("user is not navigated to Home page")
             assert False
             
-            '''
+
+
     '''
+
     @allure.step("enter userName and password and click on login button")
     def login_to_application(self, userName, password):
 
@@ -75,7 +80,9 @@ class LoginPage:
         except:
             self.screenShotPage.getScreenShot("Exception occurred while the login the application")
             assert False
+        
         '''
+
 
     @allure.step("enter userName and password and click on login button")
     def login_to_application(self, userName, password):

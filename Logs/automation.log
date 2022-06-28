@@ -1,7 +1,30 @@
-08-06-2022 14:02:55 - testCase.test_login - INFO - *********** Start TC 001*********** 
-08-06-2022 14:02:55 - testCase.test_login - INFO - *********** verify existing customer details *********** 
-08-06-2022 14:02:55 - testCase.test_login - INFO - ************* Enter the Url  ************
-08-06-2022 14:12:15 - testCase.test_login - INFO - *********** Start TC 001*********** 
-08-06-2022 14:12:15 - testCase.test_login - INFO - *********** verify existing customer details *********** 
-08-06-2022 14:12:15 - testCase.test_login - INFO - ************* Enter the Url  ************
-08-06-2022 14:12:36 - testCase.test_login - INFO - entered valid username and password
+21-06-2022 23:57:42 - testCase.test_login - INFO - *************** Start test_welcome_to_home_Page **************************
+21-06-2022 23:57:42 - testCase.test_login - INFO - *************** END test_welcome_to_home_Page **************************
+21-06-2022 23:57:43 - testCase.test_login - INFO - *********** Start verify existing customer details *********** 
+21-06-2022 23:57:46 - testCase.test_login - INFO - ************* Entered the Url  ************
+21-06-2022 23:58:04 - testCase.test_login - INFO - entered valid username and password
+21-06-2022 23:58:14 - testCase.test_login - INFO - clicked on customer on left panel
+21-06-2022 23:58:18 - testCase.test_login - INFO - verified existing customer details
+21-06-2022 23:58:18 - testCase.test_login - INFO - closed the browser
+21-06-2022 23:58:18 - testCase.test_login - INFO - *********** END verify existing customer details*********** 
+21-06-2022 23:58:20 - testCase.test_login - INFO - ***********  start verify Home page title *********** 
+21-06-2022 23:58:22 - testCase.test_login - INFO - ************* Enter the Url for   ************
+21-06-2022 23:58:37 - testCase.test_login - INFO - entered valid username and password
+21-06-2022 23:58:41 - testCase.test_login - INFO - captured page title
+21-06-2022 23:58:45 - testCase.test_login - INFO - verified user is not navigated to home page
+21-06-2022 23:58:47 - testCase.test_login - INFO - *********** verify new customer is created *********** 
+21-06-2022 23:58:51 - testCase.test_login - INFO - ************* Enter the Url for   ************
+21-06-2022 23:59:33 - testCase.test_login - INFO - entered valid username and password
+21-06-2022 23:59:43 - testCase.test_login - INFO - clicked on customer on left panel
+27-06-2022 10:31:30 - testCase.test_login - INFO - *********** Start TC 001*********** 
+27-06-2022 10:31:30 - testCase.test_login - INFO - *********** verify existing customer details *********** 
+27-06-2022 10:31:31 - testCase.test_login - INFO - ************* Enter the Url  ************
+27-06-2022 12:02:48 - testCase.test_login - INFO - *********** Start TC 001*********** 
+27-06-2022 12:02:48 - testCase.test_login - INFO - *********** verify existing customer details *********** 
+27-06-2022 12:02:48 - testCase.test_login - INFO - ************* Enter the Url  ************
+27-06-2022 12:05:10 - testCase.test_login - INFO - *********** Start TC 001*********** 
+27-06-2022 12:05:10 - testCase.test_login - INFO - *********** verify existing customer details *********** 
+27-06-2022 12:05:10 - testCase.test_login - INFO - ************* Enter the Url  ************
+28-06-2022 12:34:49 - testCase.smoke_test - INFO - *********** Start TC 001*********** 
+28-06-2022 12:34:49 - testCase.smoke_test - INFO - *********** verify existing customer details *********** 
+28-06-2022 12:34:49 - testCase.smoke_test - INFO - ************* Enter the Url  ************

@@ -18,9 +18,9 @@ class HomePage:
         self.driver = driver
 
     @allure.step("click on left panel ")
-    def clickOnLeftPanel(self):
+    def click_on_left_panel(self):
         self.BasePage = BasePage(self.driver)
         time.sleep(1)
         self.BasePage.element_click(self.button_MainCustomer)
-        time.sleep(1)
+        time.sleep(2)
         self.BasePage.element_click(self.button_ChildCustomer)

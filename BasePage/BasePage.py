@@ -39,7 +39,7 @@ class BasePage:
 
     def enter_text_into_element(self, by_locator, text):
         try:
-            # WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).clear()
+            WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).clear()
             WebDriverWait(self.driver, 30).until(ec.visibility_of_element_located(by_locator)).send_keys(text)
             return True
         # except exception:
@@ -68,10 +68,10 @@ class BasePage:
         return element.is_displayed()
 
     @allure.step("Capture page title")
-    def getTitle(self):
+    def get_title(self):
         return self.driver.title
 
-    def closeBrowser(self):
+    def close_browser(self):
         return self.driver.close()
 
     def waitFor(self, Time):

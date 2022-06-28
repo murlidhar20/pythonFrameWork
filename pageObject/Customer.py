@@ -26,7 +26,6 @@ class Customer:
     text_admitComment = (By.ID, "AdminComment")
     text_successMsg = (By.XPATH, "//*[@class='alert alert-success alert-dismissable']")
 
-
     text_save_xpath = (By.NAME, "save")
 
     def __init__(self, driver):
@@ -34,44 +33,42 @@ class Customer:
         self.driver = driver
 
     @allure.step("verify exiting customer")
-    def verifyExisting(self, customerEmail):
+    def verify_existing(self, customerEmail):
         # xpath = "//td[text()='ibNWx@gmail.com']"
         xpath = "//td[text()='" + customerEmail + "']"
         button_customer = (By.XPATH, xpath)
         self.BasePage = BasePage(self.driver)
         self.BasePage.enter_text_into_element(self.input_txt_email, customerEmail)
+        time.sleep(2)
         self.BasePage.element_click(self.button_customer)
+        time.sleep(2)
         value = self.BasePage.verify_ElementIsDisplayed(button_customer)
         print("value :", value)
 
     @allure.step("create new customer")
-    def createdNewCustomer(self):
+    def created_new_customer(self,emailID,password,firstName,lastName,companyName,message):
         self.BasePage = BasePage(self.driver)
 
         self.BasePage.element_click(self.button_newCustomer)
 
-        self.BasePage.enter_text_into_element(self.text_email, "Murl188@HP.com")
-        self.BasePage.enter_text_into_element(self.text_password, "12j345678")
+        self.BasePage.enter_text_into_element(self.text_email, emailID)
+        self.BasePage.enter_text_into_element(self.text_password, password)
 
-        self.BasePage.enter_text_into_element(self.text_firstName, "Mukkrli")
-        self.BasePage.enter_text_into_element(self.text_lastName, "dhkkhar")
+        self.BasePage.enter_text_into_element(self.text_firstName, firstName)
+        self.BasePage.enter_text_into_element(self.text_lastName, lastName)
         self.BasePage.element_click(self.checkBox_Gender)
 
-        self.BasePage.enter_text_into_element(self.text_company, "HP")
+        self.BasePage.enter_text_into_element(self.text_company, companyName)
         self.BasePage.element_click(self.text_IsTaxExempt)
 
-        #self.BasePage.enter_text_into_element(self.checkBox_newLetter, "HP letter")
+        # self.BasePage.enter_text_into_element(self.checkBox_newLetter, "HP letter")
 
-        #self.BasePage.enter_text_into_element(self.text_admitComment, "HP comment")
+        # self.BasePage.enter_text_into_element(self.text_admitComment, "HP comment")
 
         self.BasePage.element_click(self.text_save_xpath)
 
         time.sleep(4)
-        msg=self.BasePage.get_element_text(self.text_successMsg)
+        msg = self.BasePage.get_element_text(self.text_successMsg)
 
         time.sleep(8)
-
         print("last msg : ", msg)
-
-
-

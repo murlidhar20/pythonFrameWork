@@ -1,0 +1,2 @@
+[32mINFO    [0m testCase.test_login:test_login.py:155 *************** Start test_welcome_to_home_Page **************************
+[32mINFO    [0m testCase.test_login:test_login.py:157 *************** END test_welcome_to_home_Page **************************
