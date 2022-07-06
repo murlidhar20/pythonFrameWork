@@ -1,3 +1,0 @@
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:32 *********** Start TC 001*********** 
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:33 *********** verify existing customer details *********** 
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:48 ************* Enter the Url  ************

@@ -1,3 +1,0 @@
-INFO     testCase.test_login:test_login.py:185 *********** Start TC 001*********** 
-INFO     testCase.test_login:test_login.py:186 *********** verify existing customer details *********** 
-INFO     testCase.test_login:test_login.py:201 ************* Enter the Url  ************

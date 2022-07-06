@@ -40,7 +40,10 @@ def setUp():
 @pytest.fixture
 def setUp(browser):
     if browser == 'chrome':
-        driver = webdriver.Chrome('D:\driver\chromedriver_win32\chromedriver.exe')
+        #driver = webdriver.Chrome('D:\driver\chromedriver_win32\chromedriver.exe')
+        # D:\driver\driver_version\chromedriver_win32 (1)\chromedriver.exe
+
+        driver = webdriver.Chrome('D:\driver\driver_version\chromedriver_win32 (1)\chromedriver.exe')
         driver.maximize_window()
         print("launching chrome driver")
 

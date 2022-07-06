@@ -1,5 +1,0 @@
-[32mINFO    [0m testCase.test_login:test_login.py:61 ***********  start verify Home page title *********** 
-[32mINFO    [0m testCase.test_login:test_login.py:70 ************* Enter the Url for   ************
-[32mINFO    [0m testCase.test_login:test_login.py:73 entered valid username and password
-[32mINFO    [0m testCase.test_login:test_login.py:76 captured page title
-[32mINFO    [0m testCase.test_login:test_login.py:89 verified user is not navigated to home page

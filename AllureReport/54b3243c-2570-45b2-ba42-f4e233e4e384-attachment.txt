@@ -1,0 +1,6 @@
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:37  Start : verify user is able to search product in global search 
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:51 Enter the Url
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:54 entered valid username and password
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:57 fresh button is available
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:60 entered product 
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:63 user is able to logout

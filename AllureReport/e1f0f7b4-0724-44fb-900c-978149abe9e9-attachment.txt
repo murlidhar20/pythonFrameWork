@@ -1,4 +1,0 @@
-[32mINFO    [0m testCase.test_login:test_login.py:102 *********** verify new customer is created *********** 
-[32mINFO    [0m testCase.test_login:test_login.py:118 ************* Enter the Url for   ************
-[32mINFO    [0m testCase.test_login:test_login.py:121 entered valid username and password
-[32mINFO    [0m testCase.test_login:test_login.py:125 clicked on customer on left panel

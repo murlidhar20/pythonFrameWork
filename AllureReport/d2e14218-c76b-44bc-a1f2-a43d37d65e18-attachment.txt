@@ -1,7 +1,0 @@
-[32mINFO    [0m testCase.test_login:test_login.py:29 *********** Start verify existing customer details *********** 
-[32mINFO    [0m testCase.test_login:test_login.py:39 ************* Entered the Url  ************
-[32mINFO    [0m testCase.test_login:test_login.py:42 entered valid username and password
-[32mINFO    [0m testCase.test_login:test_login.py:45 clicked on customer on left panel
-[32mINFO    [0m testCase.test_login:test_login.py:48 verified existing customer details
-[32mINFO    [0m testCase.test_login:test_login.py:51 closed the browser
-[32mINFO    [0m testCase.test_login:test_login.py:53 *********** END verify existing customer details***********
