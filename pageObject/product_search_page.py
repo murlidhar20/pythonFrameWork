@@ -148,6 +148,7 @@ class product_search_page:
             self.BasePage = BasePage(self.driver)
             self.screenShotPage = GetScreenShot(self.driver)
             if self.BasePage.element_click(self.btn_closeButton_xpath):
+                time.sleep(20)
                 self.screenShotPage.getScreenShot("add to cart is closed ")
                 assert True
             else:

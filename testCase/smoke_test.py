@@ -94,6 +94,8 @@ class Test0001:
         price_range = "₹10,000 - ₹20,000"
 
         self.logger.info("Enter the Url")
+        self.logger.info("Enter the Url")
+        self.logger.info("Enter the Url")
         self.driver.get(self.baseUrl)
 
         self.logger.info("entered valid username and password")
@@ -221,8 +223,6 @@ class Test0001:
         self.base_page.close_browser()
 
         self.logger.info("END TC  : user is able to view balance and add money ")
-        
-
 
     @allure.description("user is able to edit address")
     @allure.epic("user is able to edit address")

@@ -98,7 +98,6 @@ class LoginPage:
                                 time.sleep(45)
                                 actualPageTitle = self.BasePage.get_title()
                                 if len(actualPageTitle):
-                                    actualPageTitle = self.BasePage.get_title()
                                     if actualPageTitle == "Online Shopping site in India: Shop Online for Mobiles, " \
                                                           "Books, Watches, Shoes and More - Amazon.in":
                                         self.screenShotPage.getScreenShot("user is navigated to Home page")

@@ -262,3 +262,17 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1656678365753	Marionette	INFO	Stopped listening on port 54725
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 [Parent 13748, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1657541975862	geckodriver	INFO	Listening on 127.0.0.1:52049
+1657541978946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileqtLPJB"
+1657541979658	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileqtLPJB\\search.json.mozlz4", (void 0)))
+1657541981368	Marionette	INFO	Listening on port 52072
+Read port: 52072
+1657541981464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657542180716	geckodriver	INFO	Listening on 127.0.0.1:52132
+1657542183780	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileN2Dukx"
+1657542184228	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileN2Dukx\\search.json.mozlz4", (void 0)))
+1657542185593	Marionette	INFO	Listening on port 52154
+Read port: 52154
+1657542185660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

@@ -43,3 +43,65 @@
 06-07-2022 15:35:19 - testCase.smoke_test - INFO - fresh button is available
 06-07-2022 15:35:20 - testCase.smoke_test - INFO - entered product 
 06-07-2022 15:35:34 - testCase.smoke_test - INFO - user is able to logout
+11-07-2022 17:27:01 - testCase.smoke_test - INFO - Start TC  : user is able to edit address
+11-07-2022 17:27:01 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:27:08 - testCase.smoke_test - INFO - entered valid username and password
+11-07-2022 17:32:26 - testCase.smoke_test - INFO - Start TC  : user is able to edit address
+11-07-2022 17:32:26 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:32:33 - testCase.smoke_test - INFO - entered valid username and password
+11-07-2022 17:33:21 - testCase.smoke_test - INFO - fresh button is available
+11-07-2022 17:33:22 - testCase.smoke_test - INFO - click on account list 
+11-07-2022 17:33:26 - testCase.smoke_test - INFO - click on  address and verify edit button
+11-07-2022 17:34:13 - testCase.smoke_test - INFO - user is able to logout
+11-07-2022 17:34:16 - testCase.smoke_test - INFO - closed the browser
+11-07-2022 17:34:20 - testCase.smoke_test - INFO - END TC  :  user is able to edit address 
+11-07-2022 17:34:21 - testCase.smoke_test - INFO - Start TC  : user is able to view balance and add money
+11-07-2022 17:34:21 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:34:28 - testCase.smoke_test - INFO - entered valid username and password
+11-07-2022 17:35:17 - testCase.smoke_test - INFO - fresh button is available
+11-07-2022 17:35:17 - testCase.smoke_test - INFO - fresh button is available
+11-07-2022 17:35:21 - testCase.smoke_test - INFO - view amazon pay balance
+11-07-2022 17:35:26 - testCase.smoke_test - INFO - add money to wallet
+11-07-2022 17:35:34 - testCase.smoke_test - INFO - user is able to logout
+11-07-2022 17:35:36 - testCase.smoke_test - INFO - closed the browser
+11-07-2022 17:35:40 - testCase.smoke_test - INFO - END TC  : user is able to view balance and add money 
+11-07-2022 17:35:42 - testCase.smoke_test - INFO - Start : TC user is able to add the product if brand and price filter is applied-
+11-07-2022 17:35:42 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:35:42 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:35:42 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:35:55 - testCase.smoke_test - INFO - entered valid username and password
+11-07-2022 17:36:43 - testCase.smoke_test - INFO - fresh button is available
+11-07-2022 17:36:43 - testCase.smoke_test - INFO - entered product 
+11-07-2022 17:36:50 - testCase.smoke_test - INFO - entered Brand 
+11-07-2022 17:37:11 - testCase.smoke_test - INFO - select range
+11-07-2022 17:37:33 - testCase.smoke_test - INFO - click on first product
+11-07-2022 17:38:02 - testCase.smoke_test - INFO - clicked on close button on pop-up
+11-07-2022 17:38:23 - testCase.smoke_test - INFO - user is able to logout
+11-07-2022 17:38:26 - testCase.smoke_test - INFO - closed the browser
+11-07-2022 17:38:26 - testCase.smoke_test - INFO - END : TC user is able to add the product if brand and price filter is applied-
+11-07-2022 17:38:27 - testCase.smoke_test - INFO - Start TC  : user can delete the product from add to card list
+11-07-2022 17:38:27 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:38:35 - testCase.smoke_test - INFO - entered valid username and password
+11-07-2022 17:39:24 - testCase.smoke_test - INFO - fresh button is available
+11-07-2022 17:39:25 - testCase.smoke_test - INFO - delete the product
+11-07-2022 17:39:56 - testCase.smoke_test - INFO - user is able to logout
+11-07-2022 17:39:59 - testCase.smoke_test - INFO - closed the browser
+11-07-2022 17:40:03 - testCase.smoke_test - INFO - END TC  : user can delete the product from add to card list 
+11-07-2022 17:40:04 - testCase.smoke_test - INFO -  Start : verify user is able to search product in global search 
+11-07-2022 17:40:04 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:40:13 - testCase.smoke_test - INFO - entered valid username and password
+11-07-2022 17:41:02 - testCase.smoke_test - INFO - fresh button is available
+11-07-2022 17:41:03 - testCase.smoke_test - INFO - entered product 
+11-07-2022 17:41:17 - testCase.smoke_test - INFO - user is able to logout
+11-07-2022 17:41:22 - testCase.smoke_test - INFO - closed the browser
+11-07-2022 17:41:26 - testCase.smoke_test - INFO -  END : verify user is able to search product in global search 
+11-07-2022 17:45:23 - testCase.smoke_test - INFO - Start TC  : user is able to edit address
+11-07-2022 17:45:23 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:45:28 - testCase.smoke_test - INFO - entered valid username and password
+11-07-2022 17:45:51 - testCase.smoke_test - INFO - Start TC  : user is able to edit address
+11-07-2022 17:45:51 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:45:56 - testCase.smoke_test - INFO - entered valid username and password
+11-07-2022 17:49:41 - testCase.smoke_test - INFO - Start TC  : user is able to edit address
+11-07-2022 17:49:41 - testCase.smoke_test - INFO - Enter the Url
+11-07-2022 17:53:05 - testCase.smoke_test - INFO - Start TC  : user is able to edit address
+11-07-2022 17:53:05 - testCase.smoke_test - INFO - Enter the Url
