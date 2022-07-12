@@ -1,0 +1,10 @@
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:169 Start TC  : user is able to view balance and add money
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:184 Enter the Url
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:187 entered valid username and password
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:190 fresh button is available
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:193 fresh button is available
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:196 view amazon pay balance
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:199 add money to wallet
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:204 user is able to logout
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:207 closed the browser
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:210 END TC  : user is able to view balance and add money

@@ -15,8 +15,8 @@ from BasePage.BasePage import BasePage
 
 from pageObject.product_search_page import product_search_page
 from pageObject.my_account_page import my_account_page
-
 import allure
+import os
 
 
 class Test0001:
@@ -24,10 +24,10 @@ class Test0001:
     username = ReadConfig.getUserEmail()
     password = ReadConfig.getUserPassword()
     logger = GenerateLogs.log_gen(__name__)
-    path = "C:/Users/HP/PycharmProjects/pythonFrameWork/TestData/Excel.xlsx"
-
-
-
+    # path = "C:/Users/HP/PycharmProjects/pythonFrameWork/TestData/Excel.xlsx"
+    parent_dir = os.getcwd()
+    directory = '/TestData/Excel.xlsx'
+    path = parent_dir + directory
 
     @allure.description("verify user is able to search product in global search")
     @allure.epic("verify user is able to search product in global search")
@@ -45,8 +45,7 @@ class Test0001:
         self.product_search = product_search_page(self.driver)
 
         # Test Data
-        self.customer = ExcelReader.read_data(self.path, "Sheet1", 2, 4)
-        product_name = "mobile phone"
+        self.product_name = ExcelReader.read_data(self.path, "Sheet1", 2, 6)
 
         self.logger.info("Enter the Url")
         self.driver.get(self.baseUrl)
@@ -58,7 +57,7 @@ class Test0001:
         self.home_page.verify_fresh_button_is_displayed()
 
         self.logger.info("entered product ")
-        self.product_search.enter_the_product(product_name)
+        self.product_search.enter_the_product(self.product_name)
 
         self.logger.info("user is able to logout")
         self.login_page.log_out()
@@ -67,10 +66,6 @@ class Test0001:
         self.base_page.close_browser()
 
         self.logger.info(" END : verify user is able to search product in global search ")
-
-
-
-
 
     @allure.description("user is able to add the product if brand and price filter is applied")
     @allure.epic("user is able to add the product if brand and price filter is applied")
@@ -127,8 +122,6 @@ class Test0001:
 
         self.logger.info("END : TC user is able to add the product if brand and price filter is applied-")
 
-
-
     @allure.description("user can delete the product from add to card list")
     @allure.epic("user can delete the product from add to card list")
     @allure.severity(allure.severity_level.NORMAL)
@@ -167,15 +160,7 @@ class Test0001:
         self.base_page.close_browser()
 
         self.logger.info("END TC  : user can delete the product from add to card list ")
-        
 
-        
-
-        
-
-
-
-    
     @allure.description("user is able to view balance and add money")
     @allure.epic("user is able to view balance and add money")
     @allure.severity(allure.severity_level.NORMAL)
@@ -263,6 +248,8 @@ class Test0001:
         self.base_page.close_browser()
 
         self.logger.info("END TC  :  user is able to edit address ")
+        
+
         
 
         

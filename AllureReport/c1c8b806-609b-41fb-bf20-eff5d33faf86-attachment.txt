@@ -1,9 +1,0 @@
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:232 Start TC  : user is able to edit address
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:244 Enter the Url
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:247 entered valid username and password
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:250 fresh button is available
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:253 click on account list 
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:256 click on  address and verify edit button
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:259 user is able to logout
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:262 closed the browser
-[32mINFO    [0m testCase.smoke_test:smoke_test.py:265 END TC  :  user is able to edit address

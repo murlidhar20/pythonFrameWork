@@ -1,0 +1,14 @@
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:75 Start : TC user is able to add the product if brand and price filter is applied-
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:91 Enter the Url
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:92 Enter the Url
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:93 Enter the Url
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:96 entered valid username and password
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:99 fresh button is available
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:102 entered product 
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:105 entered Brand 
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:108 select range
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:111 click on first product
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:114 clicked on close button on pop-up
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:117 user is able to logout
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:120 closed the browser
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:123 END : TC user is able to add the product if brand and price filter is applied-

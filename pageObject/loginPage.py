@@ -24,7 +24,6 @@ class LoginPage:
     button_login_xpath = (By.XPATH, "//*[@id='signInSubmit']")
     button_signIn_xpath = (By.XPATH, "//*[text()='Hello, Sign in']")
     header_signIn_xpath = (By.XPATH, "//*[@class='nav-line-1-container']")
-
     btn_signOut_xpath = (By.XPATH, "//*[text()='Sign Out']")
 
     def __init__(self, driver):
@@ -133,9 +132,11 @@ class LoginPage:
             self.BasePage = BasePage(self.driver)
             self.screenShotPage = GetScreenShot(self.driver)
             if self.BasePage.mouse_hover(self.header_signIn_xpath):
+                time.sleep(2)
                 if self.BasePage.element_click(self.btn_signOut_xpath):
-                    assert True
+                    time.sleep(10)
                     self.screenShotPage.getScreenShot("user is able to logout")
+                    assert True
                 else:
                     self.screenShotPage.getScreenShot("logout button is not displayed")
                     assert False

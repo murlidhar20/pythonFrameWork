@@ -1,0 +1,8 @@
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:131 Start TC  : user can delete the product from add to card list
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:144 Enter the Url
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:147 entered valid username and password
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:150 fresh button is available
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:153 delete the product
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:156 user is able to logout
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:159 closed the browser
+[32mINFO    [0m testCase.smoke_test:smoke_test.py:162 END TC  : user can delete the product from add to card list
